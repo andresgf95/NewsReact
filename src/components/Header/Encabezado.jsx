@@ -1,11 +1,10 @@
-import logoFG from '../../img/LogoSenFondo.png';
+import logoFG from '../../img/FollasGalegas.png';
 import styles from './Header.module.css'
 
 function Header() {
   return (
     <div className={styles.Header}>
       <img src={logoFG} alt="logo" />
-      <h1 className={styles.titulo}>Follas Galegas</h1>
     </div>
   );
 }

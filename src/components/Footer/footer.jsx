@@ -1,3 +1,4 @@
+import Styles from './Footer.module.css'
 
 function CuadroFooter() {
   return (

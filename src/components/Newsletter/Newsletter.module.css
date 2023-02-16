@@ -1,0 +1,29 @@
+.Newsletter {
+    background-image:radial-gradient(rgba(255, 255, 255, 0.37), rgba(0, 238, 255, 0.301));
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+
+.TituloNesletter{
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    top: 25%;
+    font-family: monospace;
+}
+
+.InputEmail {
+    position: relative;
+    top: 50%;
+    margin: 0%;
+    max-height: 30vh;
+    box-shadow: 5px 0px 15px rgb(2, 45, 51);
+}
+
+.InputSubmit {
+    position: relative;
+    top: 50%;
+    margin: 0%;
+    box-shadow: 5px 0px 15px rgb(2, 45, 51);
+}

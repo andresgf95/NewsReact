@@ -1,9 +1,7 @@
 .Header{
-    padding: 0.5rem;
     display: flex;
     flex-flow: row wrap;
     justify-content:center;
     background-image:radial-gradient(rgb(78, 190, 255),rgb(221, 243, 255)) ;
     width: 100%;
-    height: fit-content;
 }

@@ -1,0 +1,26 @@
+.CorpoColumnaPrincipal {
+    display: grid;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: aliceblue;
+    grid-template-columns: 10px 1fr 10px 1fr 10px 1fr 10px;
+    min-height: 532px;
+    align-items: stretch ;
+}
+
+.Internacional {
+    grid-column-start: 2 ;
+    grid-column-end: 3 ;
+    border-right: solid rgba(206, 206, 206, 0.397) 0.1px;
+}
+
+.Autonomica{
+    grid-column-start: 4 ;
+    grid-column-end: 5 ;
+    border-right: solid rgba(206, 206, 206, 0.397) 0.1px;
+}
+
+.Opinion {
+    grid-column-start: 6 ;
+    grid-column-end: 7 ;
+}

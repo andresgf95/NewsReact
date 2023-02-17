@@ -1,9 +1,5 @@
 import { useState } from "react";
-import AccesoAreaPersoal from "../Acceso Area Persoal/AccesoAreaPersoal";
-import CuadroFooter from "../Footer/footer";
-import FormularioRexistro from "../Formulario de Rexistro/FormularioRexistro";
-import Header from "../Header/Encabezado";
-import Newsletter from "../Newsletter/Newsletter";
+
 
 
 
@@ -14,7 +10,6 @@ function Navegador() {
     }
     return (
         <>
-            <Header/>
             <nav>
                 <a id="<principal>" onClick={manexadorClick}>Principal</a>
                 <a id="Lugo" onClick={manexadorClick}>Lugo</a>
@@ -23,8 +18,6 @@ function Navegador() {
             {Vista === "principal" && <p>Mostrando principal</p>}
             {Vista === "Lugo" && <p>Lugo</p>}
             {Vista === "rexistro" && <p>Mostrando rexistro</p>}
-            <Newsletter/>
-            <CuadroFooter/>
         </>
     )
   }
